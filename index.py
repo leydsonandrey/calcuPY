@@ -12,20 +12,20 @@ def help():
 
 def calcular(calculo):
     try:
-        print(f'| {eval(calculo)}')
-        print('|')
+        print(f'{eval(calculo)}')
+        print()
     except Exception as e:
-        return print(f'| Calculo escrito errado :  {str(e)}')
+        return print(f'Calculo escrito errado :  {str(e)}')
 
 
-print("| CALCULADORA")
+print("CALCULADORA")
 
 while True:
-    calculo = input('| : ')
-    if "quit" in calculo:
+    calculo = input(': ')
+    if calculo == "quit":
         quit(calculos_feitos)
         break
-    elif "help" in calculo:
+    elif calculo == "help":
         help()
     elif calculo.isalpha() or not "quit" or not "help":
         print("| Letras não são permitidas")
