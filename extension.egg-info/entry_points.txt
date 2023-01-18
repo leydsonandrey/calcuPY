@@ -1,2 +1,0 @@
-[console_scripts]
-calculadora_python = extension.__main__:main
