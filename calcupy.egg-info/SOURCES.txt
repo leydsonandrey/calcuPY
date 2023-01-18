@@ -1,0 +1,9 @@
+README.md
+setup.py
+calcupy.egg-info/PKG-INFO
+calcupy.egg-info/SOURCES.txt
+calcupy.egg-info/dependency_links.txt
+calcupy.egg-info/entry_points.txt
+calcupy.egg-info/top_level.txt
+extension/__init__.py
+extension/__main__.py
