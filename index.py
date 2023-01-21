@@ -16,12 +16,12 @@ def help():
 def calcular(value):
     try:
         if value == "":
-            return print("Erro: Calculo vazio")
+            print("Erro: Calculo vazio")
         else:
             print(f'{eval(value)}')
             print()
     except SyntaxError:
-        if re.findall("^0", value) is ['0']:
+        if re.findall("^0", value) == ['0']:
             print("Erro: Zero à esquerda não é permitido")
         else:
             # espaco_em_branco = re.split("\s", calculo)
