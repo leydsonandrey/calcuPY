@@ -9,7 +9,5 @@ Uma calculadora feita em Python3.10
 ```shell
 $ unzip calculadora-python-master.zip
 $ cd calculadora-python-master
-$ chmod +x install.sh
-$ ./install.sh
-$ calcupy
+$ python3.10 index.py
 ```
