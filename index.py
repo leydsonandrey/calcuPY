@@ -29,14 +29,15 @@ def calcular(value):
         if value == "":
             print("Erro: Calculo vazio")
         else:
-            print(f'{eval(value)}')
-            print()
+            print('\n', eval(value), '\n')
+            global calculos_feitos
+            calculos_feitos += 1
     except SyntaxError:
         if re.findall("^0", value) == ['0']:
-            print("Erro: Zero à esquerda não é permitido")
+            print("\nErro: Zero à esquerda não é permitido\n")
         else:
             # espaco_em_branco = re.split("\s", calculo)
-            print("Erro: conta com varios calculos")
+            print("\nErro: conta com varios calculos\n")
             # for i in re.split('\s', value):
             #     print(eval(i))
 
