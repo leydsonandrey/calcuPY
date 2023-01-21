@@ -11,8 +11,8 @@ def mostrar_contas_feitas():
 
 
 def sair():
-    print("\nsaindo...\n")
     mostrar_contas_feitas()
+    print("saindo...\n")
     sys.exit()
 
 
