@@ -9,7 +9,6 @@ def help():
     print(
         'digite "quit" para sair \n'
         'digite "help" para ajuda \n'
-        'digite "calculos" para ver a quantidade de calculos feitos'
     )
 
 
@@ -25,7 +24,7 @@ def calcular(value):
             print("Erro: Zero à esquerda não é permitido")
         else:
             # espaco_em_branco = re.split("\s", calculo)
-            for i in re.split("\s", value):
+            for i in re.split('\s', value):
                 print(eval(i))
 
 
