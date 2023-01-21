@@ -1,14 +1,25 @@
 import re
+import sys
 
 
-def quit():
-    print("saindo...")
+calculos_feitos = 0
 
 
-def help():
+def mostrar_contas_feitas():
+    global calculos_feitos
+    print(f"\nForam feitos: {calculos_feitos} calculos\n")
+
+
+def sair():
+    print("\nsaindo...\n")
+    mostrar_contas_feitas()
+    sys.exit()
+
+
+def ajuda():
     print(
-        'digite "quit" para sair \n'
-        'digite "help" para ajuda \n'
+        '\ndigite "sair" para sair \n'
+        'digite "ajuda" para ajuda \n'
     )
 
 
