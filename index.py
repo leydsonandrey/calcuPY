@@ -24,8 +24,9 @@ def calcular(value):
             print("Erro: Zero à esquerda não é permitido")
         else:
             # espaco_em_branco = re.split("\s", calculo)
-            for i in re.split('\s', value):
-                print(eval(i))
+            print("Erro: conta com varios calculos")
+            # for i in re.split('\s', value):
+            #     print(eval(i))
 
 
 print("CALCUPY")
