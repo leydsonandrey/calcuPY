@@ -47,15 +47,17 @@ print("CALCUPY")
 while True:
     try:
         calculo = input('> ')
-        if calculo == "help":
-            help()
-        elif calculo == "quit":
-            quit()
-            break
-        elif calculo.isalpha() or not "quit" or not "help":
-            print("Erro: Letras não são permitidas")
+
+        if calculo == "ajuda" or re.findall("ajuda", calculo) == ['ajuda']:
+            ajuda()
+        elif calculo == "sair" or re.findall("sair", calculo) == ['sair']:
+            sair()
+        elif calculo == "contas" or re.findall("contas", calculo) == ['contas']:
+            mostrar_contas_feitas()
+        elif calculo.isalpha():
+            print("\nErro: Letras não são permitidas\n")
         else:
             calcular(calculo)
+
     except KeyboardInterrupt:
-        quit()
-        break
+        sair()
