@@ -34,11 +34,11 @@ print("CALCUPY")
 while True:
     try:
         calculo = input('> ')
-        if calculo == "quit":
+        if calculo == "help":
+            help()
+        elif calculo == "quit":
             quit()
             break
-        elif calculo == "help":
-            help()
         elif calculo.isalpha() or not "quit" or not "help":
             print("Erro: Letras não são permitidas")
         else:
