@@ -24,7 +24,7 @@ def ajuda():
     print(
         '\ndigite "sair" para sair \n'
         'digite "ajuda" para ajuda \n'
-        'digite "contas" para ver a quantidade de contas feitasn \n'
+        'digite "contas" para ver a quantidade de contas feitas \n'
     )
 
 
