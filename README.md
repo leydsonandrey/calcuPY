@@ -14,4 +14,4 @@ $ python3.10 index.py
 
 ## Tasks
 
-- [x]: Contagem de calculos
+- [x] Contagem de calculos
