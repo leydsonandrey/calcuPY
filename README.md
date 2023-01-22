@@ -1,15 +1,17 @@
 ![](calculadora-python.gif)
 
-# CALCUPY - CALCULADORA
+# calcuPY - CALCULADORA
 
-Uma calculadora feita em Python3.10
+Uma simples calculadora feita em Python3.10
 
 ## Executar
 
+### Unix
+
 ```shell
-$ unzip calculadora-python-master.zip
-$ cd calculadora-python-master
-$ python3.10 index.py
+git clone 'https://github.com/SureAndrey/calcuPY.git'
+cd calcuPY
+python3.10 index.py
 ```
 
 ## Tasks
