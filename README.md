@@ -9,7 +9,7 @@ Uma simples calculadora feita em Python3.10
 ### Unix
 
 ```shell
-git clone 'https://github.com/SureAndrey/calcuPY.git'
+git clone 'https://github.com/leydsonandrey/calcuPY.git'
 cd calcuPY
 python3.10 index.py
 ```
